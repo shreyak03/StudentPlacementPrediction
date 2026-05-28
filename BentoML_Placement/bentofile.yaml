@@ -1,0 +1,12 @@
+service: "service:PlacementService"
+
+include:
+  - "*.py"
+  - "*.pkl"
+
+python:
+  packages:
+    - pandas
+    - scikit-learn
+    - bentoml
+    - joblib

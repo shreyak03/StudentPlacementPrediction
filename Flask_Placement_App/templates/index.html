@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Placement Prediction</title>
+</head>
+<body>
+
+<h2>Student Placement Prediction</h2>
+
+<form action="/predict" method="post">
+
+Degree Percentage:
+<input type="text" name="degree_p"><br><br>
+
+Employability Test Percentage:
+<input type="text" name="etest_p"><br><br>
+
+MBA Percentage:
+<input type="text" name="mba_p"><br><br>
+
+Work Experience:
+<input type="text" name="workex"><br><br>
+
+<button type="submit">Predict</button>
+
+</form>
+
+<h3>{{ prediction }}</h3>
+
+</body>
+</html>
